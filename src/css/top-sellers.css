@@ -1,0 +1,98 @@
+/*  TOP SELLERS  */
+.sellers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    row-gap: 32px;
+}
+
+.last {
+    display: none;
+}
+
+.sellers-img {
+    display: block;
+
+    border-radius: 15px;
+}
+
+.sellers-tablet-img {
+    display: none;
+}
+
+.sellers-desktop-img {
+    display: none;
+}
+
+.sellers-text {
+    max-width: 306px;
+
+    margin-top: 20px;
+}
+
+.wrapper {
+    display: none;
+}
+
+
+/*  TABLET  */
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 24px;
+        line-height: 1.17;
+
+        margin-bottom: 50px;
+    }
+
+    .sellers-list {
+       flex-wrap: nowrap;
+
+        gap: 16px;
+    }
+
+    .sellers-img {
+        display: none;
+    }
+
+    .sellers-tablet-img {
+        display: block;
+    }
+
+    .sellers-text {
+        margin-top: 32px;
+    }
+}
+
+
+/*  DESKTOP  */
+@media screen and (min-width: 1200px) {
+    .sellers-tablet-img {
+        display: none;
+    }
+
+    .sellers-desktop-img {
+        display: block;
+    }
+
+    .wrapper {
+        display: flex;
+
+        margin-top: 32px;
+    }
+
+    .last {
+        display: block;
+    }
+
+    .sellers-text {
+        display: none;
+    }
+
+    .added {
+        display: block;
+        max-width: 407px;
+
+        margin: 0;
+    }
+}

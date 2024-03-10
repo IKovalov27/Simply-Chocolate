@@ -1,0 +1,51 @@
+.button {
+    display: block;
+    
+    background-color: var(--accent-color);
+    color: var(--second-text-color);
+    
+    border: 1px solid transparent;
+    border-radius: 100px;
+    
+    margin: 32px auto 0 auto;
+    padding: 12px 28px;
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+    cursor: pointer;
+    transition: background var(--duration) var(--cubic-bezier),
+                color var(--duration) var(--cubic-bezier);
+    }
+
+.button:hover,
+.button:focus {
+    background-color: var(--second-accent-color);
+    color: var(--accent-color);
+}
+
+.sellers {
+    margin: 20px auto 0 auto;
+}
+
+
+/*  TABLET  */
+@media screen and (min-width: 768px) {
+    .button {
+        margin: 32px 0 0 auto;
+        padding: 13px 40px;   
+    }
+}
+
+/*  DESKTOP  */
+@media screen and (min-width: 1200px) {
+    .sellers {
+        display: none;
+    }
+
+    .added-button {
+        display: block;
+        margin: 0 0 auto auto;
+    }
+}

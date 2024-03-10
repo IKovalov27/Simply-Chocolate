@@ -1,6 +1,6 @@
 /*  BENEFITS  */
 .benefits {
-    padding-top: 35px;
+    padding-top: 20px;
     padding-bottom: 35px;
 
     background-color: var(--second-bg-color);
@@ -60,7 +60,7 @@
 @media screen and (min-width: 768px) {
     .benefits {
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 85px;
     }
 
     .benefits-list {
