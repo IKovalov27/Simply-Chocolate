@@ -53,9 +53,28 @@
         <h2 class="title"><span class="accent">TOP </span>SELLERS</h2>
         <ul class="sellers-list">
             <li class="sellers-item">
-                <img src="../img/top-sellers/mobile/top-sellers-image-nuts1x.jpg" alt="Top Sellers Image" srcset="../img/top-sellers/mobile/top-sellers-image-nuts1x.jpg 1x, ../img/top-sellers/mobile/top-sellers-image-nuts2x.jpg 2x" class="sellers-img">
+                <!-- <img src="../img/top-sellers/mobile/top-sellers-image-nuts1x.jpg" alt="Top Sellers Image" srcset="../img/top-sellers/mobile/top-sellers-image-nuts1x.jpg 1x, ../img/top-sellers/mobile/top-sellers-image-nuts2x.jpg 2x" class="sellers-img">
                 <img src="../img/top-sellers/tablet/top-sellers-tab-image-nuts1x.jpg" alt="Top Sellers Image" srcset="../img/top-sellers/tablet/top-sellers-tab-image-nuts1x.jpg 1x, ../img/top-sellers/tablet/top-sellers-tab-image-nuts2x.jpg 2x" class="sellers-img sellers-tablet-img">
-                <img src="../img/top-sellers/desktop/top-sellers-des-image-nuts1x.jpg" alt="Top Sellers Image" srcset="../img/top-sellers/desktop/top-sellers-des-image-nuts1x.jpg 1x, ../img/top-sellers/desktop/top-sellers-des-image-nuts2x.jpg 2x" class="sellers-img sellers-desktop-img">
+                <img src="../img/top-sellers/desktop/top-sellers-des-image-nuts1x.jpg" alt="Top Sellers Image" srcset="../img/top-sellers/desktop/top-sellers-des-image-nuts1x.jpg 1x, ../img/top-sellers/desktop/top-sellers-des-image-nuts2x.jpg 2x" class="sellers-img sellers-desktop-img"> -->
+
+                <picture>
+                    <source
+                        srcset="
+                            ../img/top-sellers/mobile/top-sellers-image-nuts1x.jpg 1x, 
+                            ../img/top-sellers/mobile/top-sellers-image-nuts2x.jpg 2x" 
+                            class="sellers-img
+                        "
+                    />
+                    <img
+                        class="sellers-img"
+                        src="../img/top-sellers/mobile/top-sellers-image-nuts1x.jpg"
+                        alt="Chocolate with coffe and nuts"
+                        width="368"
+                        height="464"
+                        loading="lazy"
+                  />
+                </picture>
+
                 <p class="sellers-text">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
             </li>
             <li class="sellers-item">
