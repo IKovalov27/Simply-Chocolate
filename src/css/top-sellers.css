@@ -11,40 +11,19 @@
     display: none;
 }
 
-/*.sellers-img {
+.sellers-img {
     display: block;
 
     border-radius: 15px;
 }
 
-.sellers-tablet-img {
+/*.sellers-tablet-img {
     display: none;
 }
 
 .sellers-desktop-img {
     display: none;
 }*/
-
-
-
-
-
-.sellers-pic {
-
-}
-
-.sellers-img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-
-
-
-
-
-
-
 
 .sellers-text {
     max-width: 306px;
