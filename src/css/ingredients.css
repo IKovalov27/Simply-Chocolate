@@ -1,0 +1,98 @@
+/*  INGREDIENTS  */
+.ingredients {
+    padding-top: 72px;
+}
+
+.ingredients-title {
+    max-width: 283px;
+
+    margin: 0 auto 24px auto;
+}
+
+.ingredients-main-text {
+    text-align: center;
+
+    margin-bottom: 32px;
+}
+
+.ingredients-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.ingredient {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    background-color: var(--second-text-color);
+
+    border-radius: 15px;
+    border: 1px solid var(--accent-color);
+
+    transition: background var(--duration) var(--cubic-bezier),
+                border var(--duration) var(--cubic-bezier);
+}
+
+.ingredient:hover {
+    background-color: white;
+    border-color: transparent;
+}
+
+.milk-chocolate {
+    background-color: var(--accent-color);
+}
+
+.nuts {
+    background-color: var(--second-bg-color);
+}
+
+.ingredient:nth-child(2n + 1) {
+    border-color: transparent;
+}
+
+.ingredient-thumb {
+    padding: 27px 28px 27px 28px;
+}
+
+.ingredient-image {
+    margin: 0 auto 25px auto;
+}
+
+.ingredient-text {
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+
+.ingredient:nth-child(2n + 1) .ingredient-text{
+    color: var(--second-text-color);
+}
+
+.ingredient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding: 27px 28px 27px 28px;
+
+    background-color: var(--second-text-color);
+    border-radius: 15px;
+
+    transform: translateY(100%);
+
+    transition: transform var(--duration) var(--cubic-bezier);
+}
+
+.ingredient:hover .ingredient-overlay {
+    transform: translateY(0);
+}
+
+.overlay-title {
+    line-height: 1.22;
+    text-transform: uppercase;
+
+    margin-bottom: 8px;
+}
