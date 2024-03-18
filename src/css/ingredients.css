@@ -91,8 +91,38 @@
 }
 
 .overlay-title {
+    font-size: 18px;
     line-height: 1.22;
     text-transform: uppercase;
 
     margin-bottom: 8px;
+}
+
+
+
+/*  MOBILE  */
+@media screen and (max-width: 325px) {
+    .ingredient-overlay {
+        padding: 27px 20px 27px 20px;
+    }
+
+    .overlay-title {
+        font-size: 15px;
+    }
+
+    .overlay-text {
+        font-size: 13px;
+    }
+}
+
+
+/*  TABLET  */
+@media screen and (min-width: 768px) {
+
+}
+
+
+/*  DESKTOP  */
+@media screen and (min-width: 1200px) {
+
 }

@@ -69,8 +69,8 @@
 }
 
 
-@media screen and (min-width: 1200px) {
 /*  DESKTOP  */
+@media screen and (min-width: 1200px) {
     .benefits {
         padding-bottom: 50px;
     }
