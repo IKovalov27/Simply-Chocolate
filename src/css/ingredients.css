@@ -180,11 +180,11 @@
     .ingredient-overlay {
         height: 220px;
         overflow-y: scroll;
-
-        /*scrollbar-width: thin;
-        scrollbar-color: var(--main-text-color) var(--main-bg-color); */
-
-        scrollbar-width: none;
-        -ms-overflow-style: none;
     }
+
+    .ingredient-overlay::-webkit-scrollbar {
+        display: none;
+    }
+
+
 }
