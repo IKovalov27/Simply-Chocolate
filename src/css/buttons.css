@@ -99,6 +99,11 @@
 
         font-size: 18px;
     }
+
+    .overlay-button {
+        margin: 0;
+        padding: 6px 16px;
+    }
 }
 
 /*  DESKTOP  */
