@@ -186,5 +186,11 @@
         display: none;
     }
 
+    .ingredient:nth-child(2) {
+        order: unset;
+    }
 
+    .ingredient:nth-child(3) {
+        order: unset;
+    }
 }
