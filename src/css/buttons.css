@@ -62,6 +62,8 @@
 .button-active {
     background-color: var(--accent-color);
     color: var(--second-text-color);
+
+    cursor: unset;
 }
 
 
@@ -124,6 +126,11 @@
         margin: 0;
         padding: 6px 15px;
     }
+
+    .button.products-button{
+        margin: 18px auto 0 auto;
+        padding: 8px 20px;
+    } 
 }
 
 /*  DESKTOP  */

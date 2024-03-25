@@ -1,4 +1,4 @@
-new Swiper('.swiper', {
+const swiper = new Swiper('.swiper-reviews', {
     direction: 'horizontal',
     autoHeight: true,
     loop: true,
@@ -23,4 +23,4 @@ new Swiper('.swiper', {
         slidesPerView: '3',
       },
     },
-}); 
+});
