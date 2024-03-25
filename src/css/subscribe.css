@@ -1,0 +1,99 @@
+/*  REVIEWS  */
+.section.subscribe-section {
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/subscribe/mobile/subscribe-image-1x.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin-top: 72px;
+    padding-top: 62px;
+    padding-bottom: 63px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .section.subscribe-section {
+        background-image: linear-gradient( to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/subscribe/mobile/subscribe-image-2x.jpg);
+    }
+}
+
+
+.subscribe-wrapper {
+    text-align: center;
+    max-width: 326px;
+}
+
+.title.subscribe-title {
+    color: var(--second-text-color);
+
+    margin-bottom: 24px;
+}
+
+.subscribe-text {
+    color: var(--second-text-color);
+
+    margin-bottom: 0;
+}
+
+
+/*  MOBILE  */
+@media screen and (min-width: 375px) {
+    .section.subscribe-section {
+        background-image: linear-gradient( to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/subscribe/tablet/subscribe-tab-image-1x.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+      .section.subscribe-section {
+        background-image: linear-gradient( to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/subscribe/tablet/subscribe-tab-image-2x.jpg);
+      }
+    }
+}
+
+
+/*  TABLET  */
+@media screen and (min-width: 768px) {
+    .section.subscribe-section {
+        background-image: linear-gradient( to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/subscribe/desktop/subscribe-des-image-1x.jpg);
+
+        margin-top: 0;
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+      .section.subscribe-section {
+        background-image: linear-gradient( to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/subscribe/desktop/subscribe-des-image-2x.jpg);
+      }
+    }
+
+    .subscribe-wrapper {
+        max-width: 467px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title.subscribe-title {
+        max-width: 378px;
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/*  DESKTOP  */
+@media screen and (min-width: 768px) {
+    .section.subscribe-section {
+        max-width: 1200px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
