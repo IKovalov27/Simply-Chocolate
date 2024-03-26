@@ -1,5 +1,6 @@
 @import url('./reset.css');
 @import url('./buttons.css');
+@import url('./hero.css');
 @import url('./benefits.css');
 @import url('./ingredients.css');
 @import url('./how-its-made.css');
@@ -7,6 +8,7 @@
 @import url('./top-sellers.css');
 @import url('./reviews.css');
 @import url('./subscribe.css');
+
 
 
 :root {
@@ -25,6 +27,8 @@
 
     --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
     --duration: 250ms;
+
+    scroll-behavior: smooth;
 }
 
 
@@ -35,6 +39,7 @@ body {
     font-family: Montserrat, sans-serif;
 
     margin: 0;
+
 }
 
 .section {
@@ -48,6 +53,10 @@ body {
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+    text-decoration: none;
 }
 
 

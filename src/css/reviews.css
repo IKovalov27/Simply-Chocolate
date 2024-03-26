@@ -179,8 +179,8 @@
 }
 
 
+/*  DESKTOP  */
 @media screen and (min-width: 1200px) {
-    /*  DESKTOP  */
     .swiper {
         max-width: 1136px;
     }

@@ -9,14 +9,15 @@
     border-radius: 100px;
     
     margin: 32px auto 0 auto;
-    padding: 12px 28px;
+    padding: 12px 24px;
     
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 17px;
     
     cursor: pointer;
     transition: background var(--duration) var(--cubic-bezier),
+                border var(--duration) var(--cubic-bezier),
                 color var(--duration) var(--cubic-bezier);
 }
 
@@ -28,6 +29,26 @@
 
 .sellers {
     margin: 20px auto 0 auto;
+}
+
+
+/*  HERO  */
+.hero-button {
+    background-color: transparent;
+    color: var(--second-text-color);
+
+    border: 1px solid var(--second-text-color);
+    transition: background var(--duration) var(--cubic-bezier),
+                border var(--duration) var(--cubic-bezier),
+                color var(--duration) var(--cubic-bezier);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: transparent;
+    color: var(--accent-color);
+
+    border: 1px solid var(--accent-color);
 }
 
 
@@ -106,6 +127,23 @@
 /*  SUBSCRIBE BUTTON  */
 .subscribe-button {
     margin: 24px auto 0 auto;
+}
+
+
+/*  MOBILE  */
+@media screen and (min-width: 375px) {
+    .button {
+        padding: 12px 28px;
+
+        font-size: 14px;
+    }
+
+    .overlay-button {
+        margin: 0;
+        padding: 6px 15px;
+
+        font-size: 10px;
+    }
 }
 
 
