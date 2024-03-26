@@ -10,30 +10,90 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.css">
     
-    <script type="module" crossorigin src="/Simply-Chocolate/assets/index-4eb20494.js"></script>
-    <link rel="stylesheet" href="/Simply-Chocolate/assets/index-9caa00cd.css">
+    <script type="module" crossorigin src="/Simply-Chocolate/assets/index-e4c03939.js"></script>
+    <link rel="stylesheet" href="/Simply-Chocolate/assets/index-3f72e4c3.css">
   </head>
   <body>
+    <!--  HEADER  -->
+<header class="header">
+    <div class="container">
+        <nav class="navigation">
+            <a href="#" class="logo">
+                <span class="logo-italic">simply </span> chocolate
+                <svg class="logo-image">
+                    <use href="/Simply-Chocolate/assets/icons-6d1700b6.svg#icon-logo"></use>
+                </svg>
+            </a>
+            <button class="burger-open-button">
+                <svg class="burger-button-icon">
+                    <use href="/Simply-Chocolate/assets/icons-6d1700b6.svg#icon-burger"></use>
+                </svg> 
+            </button>
+        </nav>
+        <div class="mobile-menu">
+            <button class="close-menu-button">
+                <svg class="close-menu-icon">
+                    <use href="/Simply-Chocolate/assets/icons-6d1700b6.svg#icon-close"></use>
+                </svg>
+            </button>
+            <nav class="mobile-menu-navigation">
+                <ul class="mobile-menu-nav-list">
+                    <li>
+                        <a href="#hero" class="mobile-menu-item">Home</a>
+                    </li>
+                    <li>
+                        <a href="#how-its-made" class="mobile-menu-item">How it’s made?</a>
+                    </li>
+                    <li>
+                        <a href="#our-products" class="mobile-menu-item">Our products</a>
+                    </li>
+                    <li>
+                        <a href="#top-sellers" class="mobile-menu-item">Top sellers</a>
+                    </li>
+                    <li>
+                        <a href="#reviews" class="mobile-menu-item">Chocolate is loved</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="mobile-menu-auth-nav">
+                <li>
+                    <a href="https://www.instagram.com/" class="mobile-menu-auth-item">
+                        <svg class="mobile-menu-auth-logo">
+                            <use href="/Simply-Chocolate/assets/icons-6d1700b6.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" class="mobile-menu-auth-item">
+                        <svg class="mobile-menu-auth-logo">
+                            <use href="/Simply-Chocolate/assets/icons-6d1700b6.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
     <!--  HERO  -->
-<section class="hero">
+<section class="hero" id="hero">
     <div class="container">
         <div class="hero-background-container">
             <div class="hero-wrapper">
                 <h3 class="hero-title">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h3>
                 <ul class="hero-list">
                     <li>
-                        <button class="button">Buy now</button>
+                        <button class="button hero-small-button">Buy now</button>
                     </li>
                     <li>
                         <a href="#how-its-made">
-                            <button class="button hero-button">How it’s made</button>
+                            <button class="button hero-button hero-small-button">How it’s made</button>
                         </a>
                     </li>
                 </ul>
                 <a href="#footer" class="hero-scroll">scroll down 
                     <span class="hero-scroll-icon">
                         <svg class="hero-scroll-svg">
-                            <use href="/Simply-Chocolate/assets/icons-0e483a72.svg#scroll-icon"></use>
+                            <use href="/Simply-Chocolate/assets/icons-6d1700b6.svg#scroll-icon"></use>
                         </svg>
                     </span>
                 </a>
@@ -48,7 +108,7 @@
             <li class="benefits-item">
                 <div class="benefits-icon">
                     <svg class="icon">
-                        <use href="/Simply-Chocolate/assets/icons-0e483a72.svg#icon-chocolate-bar"></use>
+                        <use href="/Simply-Chocolate/assets/icons-6d1700b6.svg#icon-chocolate-bar"></use>
                     </svg>
                 </div>
                 <h3 class="benefits-title">Unsurpassed taste</h3>
@@ -57,7 +117,7 @@
             <li class="benefits-item">
                 <div class="benefits-icon">
                     <svg class="icon">
-                        <use href="/Simply-Chocolate/assets/icons-0e483a72.svg#icon-coin"></use>
+                        <use href="/Simply-Chocolate/assets/icons-6d1700b6.svg#icon-coin"></use>
                     </svg>
                 </div>
                 <h3 class="benefits-title">Affordable price</h3>
@@ -66,7 +126,7 @@
             <li class="benefits-item">
                 <div class="benefits-icon">
                     <svg class="icon">
-                        <use href="/Simply-Chocolate/assets/icons-0e483a72.svg#icon-spoon"></use>
+                        <use href="/Simply-Chocolate/assets/icons-6d1700b6.svg#icon-spoon"></use>
                     </svg>
                 </div>
                 <h3 class="benefits-title">Own production</h3>
@@ -185,7 +245,7 @@
     </div>
 </section>
     <!--  OUR-PRODUCTS  -->
-<section class="section">
+<section class="section" id="our-products">
     <div class="container">
         <h2 class="title">OUR <span class="accent">PRODUCTS</span></h2>
         <div class="swiper swiper-products">
@@ -260,7 +320,7 @@
     </div>
 </section>
     <!--  TOP-SELLERS  -->
-<section class="section">
+<section class="section" id="top-sellers">
     <div class="container">
         <h2 class="title"><span class="accent">TOP </span>SELLERS</h2>
         <ul class="sellers-list">
@@ -287,7 +347,7 @@
     </div>
 </section>
     <!--  REVIEWS  -->
-<section class="section">
+<section class="section" id="reviews">
     <div class="container">
         <h2 class="title"><span class="accent">CHOCOLATE</span> IS LOVED</h2>
         <div class="swiper swiper-reviews">
