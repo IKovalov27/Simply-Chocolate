@@ -81,13 +81,15 @@
 .nav-list-item {
     position: relative;
     color: var(--second-text-color);
+    padding-top: 12px;
+    padding-bottom: 12px;
 
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14px;
     letter-spacing: -.02em;
 
-    transition: color /*var(--duration)*/ 75ms var(--cubic-bezier);
+    transition: color 100ms var(--cubic-bezier);
 }
 
 .nav-list-item:hover,
@@ -100,13 +102,14 @@
     position: absolute;
     display: block;
     width: 100%;
+    top: 31px;
     height: 2px;
     bottom: -8px;
     left: 0;
     background-color: var(--accent-color);
     transform: scaleX(0);
     transform-origin: top left;
-    transition: transform /*var(--duration)*/ 75ms var(--cubic-bezier);
+    transition: transform 100ms var(--cubic-bezier);
 }
 
 .nav-list-item:hover::before {
