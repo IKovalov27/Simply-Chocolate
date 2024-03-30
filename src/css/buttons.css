@@ -137,8 +137,6 @@
 /*  MOBILE  */
 @media screen and (min-width: 375px) {
     .button {
-        padding: 12px 28px;
-
         font-size: 14px;
     }
 
