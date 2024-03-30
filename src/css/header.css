@@ -54,7 +54,7 @@
     opacity: 0;
 
     transform: translateX(100%);
-    transition: transform var(--duration) var(--cubic-bezier),
+    transition: transform /*var(--duration)*/ 400ms var(--cubic-bezier),
                 opacity var(--duration) var(--cubic-bezier);
 }
 
@@ -87,7 +87,7 @@
     line-height: 1.14px;
     letter-spacing: -.02em;
 
-    transition: color var(--duration) var(--cubic-bezier);
+    transition: color /*var(--duration)*/ 75ms var(--cubic-bezier);
 }
 
 .nav-list-item:hover,
@@ -106,7 +106,7 @@
     background-color: var(--accent-color);
     transform: scaleX(0);
     transform-origin: top left;
-    transition: transform var(--duration) var(--cubic-bezier);
+    transition: transform /*var(--duration)*/ 75ms var(--cubic-bezier);
 }
 
 .nav-list-item:hover::before {
