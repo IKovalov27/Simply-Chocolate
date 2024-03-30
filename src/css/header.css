@@ -54,8 +54,8 @@
     opacity: 0;
 
     transform: translateX(100%);
-    transition: transform /*var(--duration)*/ 400ms var(--cubic-bezier),
-                opacity var(--duration) var(--cubic-bezier);
+    transition: transform 800ms var(--cubic-bezier),
+                opacity 400 var(--cubic-bezier);
 }
 
 .mobile-menu.is-open {
