@@ -8,34 +8,32 @@
                     <use href="./img/icons.svg#icon-logo"></use>
                 </svg>
             </a>
-            <button class="burger-open-button">
-                <svg class="burger-button-icon">
-                    <use href="./img/icons.svg#icon-burger"></use>
-                </svg> 
-            </button>
+            <div class="hamburger-menu">
+                <button type="button" class="hamburger js-toggle-menu" id="hamburger" aria-expanded="false" aria-controls="mobile-menu">
+                    <span class="bar"></span>
+                </button>
+            </div>
         </nav>
         <div class="mobile-menu">
-            <button class="close-menu-button">
-                <svg class="close-menu-icon">
-                    <use href="./img/icons.svg#icon-close"></use>
-                </svg>
-            </button>
             <nav class="mobile-menu-navigation">
-                <ul class="mobile-menu-nav-list">
+                <ul class="header-nav-list">
                     <li>
-                        <a href="#hero" class="mobile-menu-item">Home</a>
+                        <a href="#hero" class="nav-list-item anchor" data-value="hero">Home</a>
                     </li>
                     <li>
-                        <a href="#how-its-made" class="mobile-menu-item">How it’s made?</a>
+                        <a href="#how-its-made" class="nav-list-item anchor" data-value="how-its-made">How it’s made?</a>
                     </li>
                     <li>
-                        <a href="#our-products" class="mobile-menu-item">Our products</a>
+                        <a href="#our-products" class="nav-list-item anchor" data-value="our-products">Our products</a>
                     </li>
                     <li>
-                        <a href="#top-sellers" class="mobile-menu-item">Top sellers</a>
+                        <a href="#top-sellers" class="nav-list-item anchor" data-value="top-sellers">Top sellers</a>
                     </li>
                     <li>
-                        <a href="#reviews" class="mobile-menu-item">Chocolate is loved</a>
+                        <a href="#reviews" class="nav-list-item anchor" data-value="reviews">Chocolate is loved</a>
+                    </li>
+                    <li>
+                        <a href="#contacts" class="nav-list-item anchor" data-value="footer">Contacts</a>
                     </li>
                 </ul>
             </nav>

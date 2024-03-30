@@ -19,8 +19,6 @@
 
 .benefits-icon {
     display: inline-flex;
-    width: 32px;
-    height: 32px;
 
     border: 1px solid var(--benefits-icon-border-color);
     border-radius: 50%;
@@ -30,6 +28,8 @@
 }  
 
 .benefits-icon .icon {
+    width: 32px;
+    height: 32px;
     fill: var(--accent-color);
 
     transition: all 450ms var(--cubic-bezier);
@@ -75,11 +75,11 @@
         padding-bottom: 50px;
     }
 
-    .benefits-container {
-        max-width: 1100px;
+    .container.benefits-container {
+        padding-left: 0;
+        padding-right: 0;
 
-        padding-left: 50px;
-        padding-right: 50px;
+        max-width: 1100px;
     }
 
     .benefits-list {
