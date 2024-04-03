@@ -46,7 +46,7 @@
     position: fixed;
     background-color: var(--second-bg-color);
 
-    top: 58px;
+    top: 61px;
     right: 0;
     width: 100%;
     height: calc(100% - 58px);
@@ -189,11 +189,17 @@
 
 
 /*  TABLET  */
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .mobile-menu {
-        переделать меню на пк-шное, но без auth-nava
+        width: 350px;
     }
-}*/
+
+    .mobile-menu-navigation {
+        text-align: unset;
+
+        padding-left: 85px;
+    }
+}
 
 
 
@@ -211,17 +217,16 @@
 
 .mobile-menu-auth-nav {
     position: absolute;
-    display: none;
+    display: flex;
 
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 40px;
 
     gap: 18px;
 }
 
 .mobile-menu.is-open .mobile-menu-auth-nav {
-    /*display: flex;*/
-    display: none;
+    display: flex;
 }
 
 .mobile-menu-auth-item {
