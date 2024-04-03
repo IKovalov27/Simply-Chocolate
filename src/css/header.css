@@ -39,6 +39,10 @@
     height: 21px;
 }
 
+.header-navigation {
+    display: none;
+}
+
 
 /*  MOBILE MENU  */
 .mobile-menu {
@@ -260,6 +264,92 @@
         text-align: unset;
 
         padding-left: 85px;
+    }
+
+    .nav-list-item {
+        font-size: 16px;
+    }
+
+    .mobile-menu-auth-item {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .mobile-menu-auth-logo {
+        width: 24px;
+        height: 24px;
+    }
+
+    .cart-button {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .cart-logo {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+
+/*  DESKTOP  */
+@media screen and (min-width: 1200px) {
+    .navigation {
+        justify-content: unset;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 188px;
+    }
+    
+    .header-navigation {
+        display: flex;
+    
+        gap: 25px;
+        padding: 0;
+    }
+
+    .nav-list-item {
+        font-size: 14px;
+
+        color: var(--main-text-color);
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        transition: color var(--duration) var(--cubic-bezier);
+    }
+
+    .nav-list-item::before {
+        top: 38px;
+
+        transition: transform var(--duration) var(--cubic-bezier);
+    }
+
+    /*  AUTH NAV  */
+    .mobile-menu-auth-nav {
+        position: unset;
+
+        margin-left: auto;
+    }
+
+    .mobile-menu-auth-item {
+        width: 24px;
+        height: 24px;
+    }  
+
+    .mobile-menu-auth-logo {
+        width: 24px;
+        height: 24px;
+
+        fill: var(--main-text-color);
     }
 }
 
