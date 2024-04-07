@@ -76,12 +76,12 @@
     top: 0;
     left: 0;
 
-    padding: 26px 28px 26px 28px;
+    padding: 30px 28px 30px 28px;
 
     background-color: var(--second-text-color);
     border-radius: 15px;
 
-    transform: translateY(100%);
+    transform: translateY(101%);
 
     transition: transform var(--duration) var(--cubic-bezier);
 }
